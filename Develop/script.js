@@ -58,6 +58,8 @@ function generatePassword() {
   }
   return randomPassword;
 }
+
+// writes password to text area with id of password
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
