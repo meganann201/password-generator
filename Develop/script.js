@@ -7,5 +7,11 @@ var specialCharacter = ["!", "%", "&", ",", "*", "+", "-", ".", "/", "<", ">", "
   
 function generatePassword() {
   var passwordLength = window.prompt("How many characters would you like your password to contain? Please choose a length between 8 - 128.");
-
+  // Loop if answer is outside the parameters 
+  while (passwordLength <= 7 || passwordLength >= 128) {
+    alert("Password length must be between 8-128 characters. Try again!");
+    var passwordLength = window.prompt("How many characters would you like your password to contain? Please choose a length between 8 - 128.");
+  }
+  // alert how many characters password will have
+  alert("Your password will have " + passwordLength + " characters");
 }
