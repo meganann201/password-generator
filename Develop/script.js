@@ -14,4 +14,13 @@ function generatePassword() {
   }
   // alert how many characters password will have
   alert("Your password will have " + passwordLength + " characters");
+
+  // parameters of password
+
+  var confirmSpecialCharacter = window.confirm("Click OK to confirm if you would like to include special characters");
+  var confirmNumericCharacter = window.confirm("Click OK to confirm if you would like to include numeric characters"); 
+  var confirmLowerCase = window.confirm("Click OK to confirm if you would like to include lowercase characters");
+  var confirmUpperCase = window.confirm("Click OK to confirm if you would like to include uppercase characters");
+
+
 }
