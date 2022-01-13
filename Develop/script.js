@@ -49,4 +49,15 @@ function generatePassword() {
     passwordCharacters = passwordCharacters.concat(uppercase)
   }
 
+  // empty string to be filled randomly from for loop
+  var randomPassword = ""
+      
+  for (var i = 0; i < passwordLength; i++) {
+    randomPassword = randomPassword + passwordCharacters[Math.floor(Math.random() * passwordCharacters.length)];
+    console.log(randomPassword)
+  }
+  return randomPassword;
+
 }
+
+
