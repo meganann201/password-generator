@@ -57,7 +57,18 @@ function generatePassword() {
     console.log(randomPassword)
   }
   return randomPassword;
-
 }
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+
+  passwordText.value = password;
+}
+document.querySelector("#generate").addEventListener("click", writePassword);
+
+  
+
+
+
 
 
