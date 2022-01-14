@@ -16,3 +16,4 @@
 - upper case letter
 - special character
 #### Upon answering the prompts the password will generate and appear in the box.
+![password generator](https://i.imgur.com/XbUk8sV.png)
