@@ -1,6 +1,6 @@
 # Password Generator
 
-## Live link
+[Live Link](https://meganann201.github.io/password-generator/)
 ### Password Requirements
 - Must be between 8 and 128 characters long
 - Must choose at least 1 of the character options:
